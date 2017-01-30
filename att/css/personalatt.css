@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.attendance-wrap{
+  width:100vw;
+  height:89.8vh;
+  overflow:scroll;
+  padding-top:3vh;
+	}
+.attendance{
+	
+	border-top:1px #CCC solid;
+	margin-left:5.2vw;
+	margin-right:5.2vw;
+	height:9.2vh;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+	}
+.att-text{
+	float:left;
+	margin-top:1.8vh;
+	font-size:14px;
+	width:65vw;
+	}
+
+.btn-wrap{
+	text-align:center;
+	margin-top:2.2vh;
+	float:right;	}
+.btn-wrap .done{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/done.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.btn-wrap .undone{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/undone.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+

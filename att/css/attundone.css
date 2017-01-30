@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.attundone-wrap{
+  width:90vw;
+  height:89.8vh;
+  overflow:scroll;
+  padding-top:3vh;
+  padding-left:5vw;
+  padding-right:5vw;
+	}
+.attundone-wrap span{
+	display:block;
+	margin-bottom:1.9vh;
+	font-weight:800;
+	font-size:3.0vh;
+	}
+.item_undone{
+	border-top:1px #CCC solid;
+	/*height:11.5vh;*/
+	height:13.5%;
+	 -webkit-touch-callout:none;  /*系统默认菜单被禁用*/   
+    -webkit-user-select:none; /*webkit浏览器*/   
+    -khtml-user-select:none; /*早期浏览器*/   
+    -moz-user-select:none;/*火狐*/   
+    -ms-user-select:none; /*IE10*/   
+    user-select:none; 
+	}
+.item_undone img{
+	display:block;
+	margin-top:1vh;
+	margin-right:2vw;
+	width:16.3vw;
+	float:left;
+	}
+.attinfo{
+	margin-top:1vh;
+	float:left;
+	}
+.attinfo .name{
+	font-weight:800;
+	/*font-size:1.9vh;*/
+	font-size:14px;
+	width:50vw;
+	margin-bottom:0.7vh;
+	}
+.attinfo .date{
+	font-size:14px;
+	width:50vw;
+	margin-bottom:0.7vh;
+	}
+.attinfo .course{
+	font-size:10px;
+	width:50vw;
+	}
+
+.btn-wrap{
+	margin-top:3.6vh;
+	text-align:center;
+	float:right;	}
+.btn-wrap .done{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:0.7vh;
+	vertical-align:middle;
+	background:url(../img/done.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.btn-wrap button{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/undone.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+

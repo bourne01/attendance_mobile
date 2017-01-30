@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+.history-wrap{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+	}
+.student-wrap{
+	border-top: 1px #CCC solid;
+    height: 11.5vh;
+	margin-bottom:1.4vh;
+	}
+.history-wrap span{
+	font-size:2.1vh;
+	display:block;
+	font-weight:800;
+	margin-bottom:1.9vh;
+	}
+.student-wrap{
+	border-top:1px #CCC solid;
+	height:11.5vh;
+	}
+.student-wrap img{
+	display: block;
+    margin-top: 1vh;
+    margin-right: 2vw;
+    height: 10.3vh;
+    float: left;
+    width: 16.1vw;
+	}
+.attinfo{
+	margin-top:0.8vh;
+	float:left;
+	}
+.attinfo .name{
+	font-weight: 800;
+    font-size: 1.9vh;
+    width: 55vw;
+    margin-bottom: 0vh;
+	}
+.attinfo .statistics{
+    width: 55vw;
+    margin-bottom: 0vh;
+}
+.statistics p{
+	font-size:0.5vh;
+	margin-bottom:0vh;
+	}
+
+.attinfo .status{
+    font-size: 0.5vh;
+    width: 55vw;
+	color:red;
+	}
+
+.btn-wrap{
+	margin-top:3.6vh;
+	text-align:center;
+	float:right;	}
+.btn-wrap .done{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:0.7vh;
+	vertical-align:middle;
+	background:url(../img/done.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.btn-wrap button{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:0.7vh;
+	vertical-align:middle;
+	background:url(../img/undone.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+

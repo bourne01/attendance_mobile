@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.class-wrap{
+    width:92vw;
+  	height:89.8vh;
+  	overflow:scroll;
+    padding-top: 3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+	}
+.class-wrap span{
+	font-size:3.0vh;
+	display:block;
+	font-weight:800;
+	margin-bottom:1.9vh;
+	}
+#loadmsg{
+		color:red;
+	}
+.class{
+	border-top:1px #CCC solid;
+	height:7.6vh;
+	line-height:7.6vh;	
+	clear:both;
+	}
+.class img{
+	display: block;
+    margin-top: 1.7vh;
+    margin-right: 2vw;
+    height: 4.8vh;
+    float: left;
+    width: 11.6vw;
+	}
+.classname{
+	float:left;
+	margin-bottom:0.8vh;
+	width: 58vw;
+    height: 6.5vh;
+    line-height: 4vh;
+    padding-top: 2vh;
+	}
+.btn-wrap{
+	margin-top:2.1vh;
+	text-align:center;
+	float:right;	}
+.btn-wrap .done{
+	width:17.5vw;
+	height:4.2vh;
+	color:#fff;
+	font-size:0.7vh;
+	vertical-align:middle;
+	background:url(../img/done.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.btn-wrap button{
+	width:17.5vw;
+	height:4.2vh;
+	line-height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/undone.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:auto;padding:0;list-style-type:none; font-size:14px; font-family:"微软雅黑","arial"; outline: none; color:#333;}
+a,img{
+  border:0;
+   -webkit-tap-highlight-color:rgba(255,0,0,0);
+   text-decoration: none;
+}
+body{
+  padding:0;
+}
+.clr{
+  overflow: hidden;
+  clear: both;
+}
+
+.nav * {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.footer .input{
+	width:12vw;
+	height:7.2vh;
+	float:left;
+	line-height:7.2vh;
+	background: #fefefe;
+}
+
+.nav {
+width: 100vw;
+height: 7.2vh;
+line-height: 7.2vh;
+float:right;
+}
+
+.nav  .second a {
+text-decoration: none;
+display: block;
+float: right;
+height: 7.2vh;
+line-height: 7.2vh;
+width:29.3vw;
+font-size: 14px;
+color:black;
+background: #fefefe;
+padding-left:3vw;
+border-top:#CCC solid 1px;
+/*border-right:#CCC solid 1px;
+border-left:#CCC solid 1px;*/
+}
+
+.nav  .att {
+    float: left;
+    position: relative;
+    height: 6.2vh;
+    line-height: 6.2vh;
+    width: 28.7vw;
+    margin-left: 0.3vw;
+    /* border-left: solid #CCC 1px; */
+    padding-left: 4.0vw;
+    background: #eef;
+    box-shadow: 0px 4px 6px #5f5959;
+    border-radius: 3px;
+}
+
+.nav  .att .second {
+position: absolute;
+left:0;
+display: none;
+}
+
+.footer{
+	width:100vw;
+	background-color:#fff;
+	height:7.2vh;
+	margin:0;
+	border-top:solid #CCC 1px;
+	}

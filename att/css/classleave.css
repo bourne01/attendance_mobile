@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.history-wrap{
+    width:92vw;
+  	height:89.8vh;
+  	overflow:scroll;
+    padding-top: 3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+	}
+.student-wrap{
+	border-top: 1px #CCC solid;
+    height: 11.5vh;
+	margin-bottom:1.4vh;
+	}
+.history-wrap span{
+	font-size:3.0vh;
+	display:block;
+	font-weight:800;
+	margin-bottom:1.9vh;
+	}
+.student-wrap{
+	border-top:1px #CCC solid;
+	height:11.5vh;
+	}
+.student-wrap img{
+	display: block;
+    margin-top: 1vh;
+    margin-right: 2vw;
+    height: 10.3vh;
+    float: left;
+    width: 16.1vw;
+	}
+.attinfo{
+	margin-top:0.8vh;
+	float:left;
+	}
+.attinfo .name{
+	font-weight: 800;
+    font-size: 14px;
+    width: 55vw;
+	margin-top: 1.5vh;
+	}
+.attinfo .statistics{
+    /*width: 55vw;*/
+	width:55vw;
+    margin-bottom: 0vh;
+	margin-left:0px;
+	margin-top:2vh;
+}
+.statistics p{
+	font-size:13px;/*13px*/
+	margin-bottom:0vh;
+	margin:0px;
+	}
+
+.btn-wrap{
+	margin-top:3.6vh;
+	text-align:center;
+	float:right;	}
+.btn-wrap .done{
+	width:17.5vw;
+	height:4.2vh;
+	line-height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/done.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.btn-wrap button{
+	width:17.5vw;
+	height:4.2vh;
+	line-height:4.2vh;
+	color:#fff;
+	font-size:12px;
+	vertical-align:middle;
+	background:url(../img/undone.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+

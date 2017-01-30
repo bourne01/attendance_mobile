@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+.leaveinfo-wrap{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+	}
+.studentinfo-wrap{
+	margin-top:10vw;
+	margin-left:7vw;
+	height:19vh;
+	border-bottom:1px #CCC solid;
+	margin-right:7vw;
+	}
+.studentinfo-wrap img{
+	width:30vw;
+	float:left;
+	display:block;
+	}
+.studentinfo{
+	width: 55vw;
+    text-align: left;
+    margin-top: 2vw;
+    float: left;
+	
+	}
+.stu_name{
+	
+	font-size:14px;
+	font-weight:800;
+	margin-bottom:3vw;
+	}
+.stu_addr{margin-bottom:3vw;}
+.stu_tel{}
+.leave_type{
+	margin-left:7vw;
+	margin-top:3vh;
+	margin:3vh 7vw;
+	border-bottom:1px #CCC solid;
+	height:7vh;
+	}
+.leave{
+  color: #999;
+  float:left;
+  margin-right:2vw;
+}
+.leave span{
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-right: 5px;
+}
+.leave .on-select{
+  background:#00d49c url(../img/check.png) no-repeat center;
+  background-size: 13px;
+}
+.leave_time{
+	margin:3vh 7vw;
+	border-bottom:1px #CCC solid;
+	height:23vh;
+	}
+.leave_time p{
+	font-size:2.3vh;
+	clear:both;
+	}
+#p_endtime{
+	margin-top:8vh;
+	}
+.leave_time select{
+	margin-right:10px;
+	}
+.start_time,.end_time{
+	margin-top:2vh;
+	margin-bottom:2vh;
+	}
+
+.sweek,.sday,.sclass,.eweek,.eday,.eclass{
+	height:4.5vh;
+	width:25.6vw;
+	float:left;
+	line-height:4.5vh;
+	font-size:1.5vh;
+	background:url(../img/select-bg.png) no-repeat center;
+	background-size:contain;
+	
+}
+#s_leave_week,#s_leave_day,#s_leave_class,#e_leave_week,#e_leave_day,#e_leave_class{
+	padding-left:3vw;
+	}
+.sweek_option,.sday_option,.sclass_option,.eweek_option,.eday_option,.eclass_option{
+	margin-top: 0.5vh;
+    margin-left: 0.7vw;
+    line-height: 4.5vh;
+    margin-right: 0.3vw;
+	}
+.start_time li,.end_time li{
+	color: #fff;
+    background-color: brown;
+    text-align: center;
+    font-size: 2.2vh;
+    border-bottom: 1px solid;
+    height: 3vh;
+    line-height: 3vh;
+	display:none;
+	top:0;
+	position:relative;
+	z-index:999;
+	}
+.leave_reason{
+	margin-left:7vw;
+	margin-bottom:3.4vh;
+	height:10vh;
+	}
+.leave_reason input{
+	width:85.5vw;
+	height:10vh;
+	border:1px #CCC solid;
+	}
+.btn{
+	margin-left:7vw;
+	margin-right:7vw;
+	text-align:center;
+	}
+.btn .save{
+  width: 30vw;
+  height: 6.3vh;
+  background: url(../img/save-bg.png) no-repeat center;
+  background-size:contain;
+  font-size: 3.4vh;
+  color:#FFF;
+  border: none;
+  border-radius: 8px;
+  margin-right:5vw;
+	}
+.btn .cancel{
+  width: 30vw;
+  height: 6.3vh;
+  background: url(../img/cancel1-bg.png) no-repeat center;
+  background-size:contain;
+  font-size: 3.4vh;
+  color:#FFF;
+  border: none;
+  border-radius: 8px;
+	}

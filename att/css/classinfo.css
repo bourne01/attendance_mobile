@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+.class-wrap{
+   width:100vw;
+  height:89.8vh;
+	}
+.class{
+	margin-top:20px;
+	margin-left:5.3%;
+	margin-right:5.3%;
+	border-bottom:1px #CCC solid;
+	padding-bottom:14px;
+	}
+.class p{
+	font-size:18px;
+	}
+.class #leave_num{
+	color:#10c59a;
+	}
+.curclass{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:13px;
+	line-height:13px;
+	//border-right:1px solid #333333;
+	//margin-right:1%;
+	//padding-right:1%;
+	}
+
+.btn .fullyattend{
+	height:31px;
+	width:80px;
+	background:url(../img/fullyattend-bg.png) no-repeat center;
+	background-size:container;
+	margin-right:4%;
+	border-radius:5px;
+	}
+.btn .confirm{
+	height:31px;
+	width:80px;
+	background:url(../img/confirm-bg.png) no-repeat center;
+	background-size:container;
+	margin-right:4%;
+	border-radius:5px;
+	}
+.btn .back{
+	height:31px;
+	width:80px;
+	background:url(../img/cancel-bg.png) no-repeat center;
+	background-size:container;
+	border-radius:5px;
+	margin-left:12vw;
+	}
+.btn button{
+	width:171px;
+	height:46px;
+	margin-top:8px;
+	background:url(../img/button1-bk.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+.student-wrap{
+	margin-left:5.3%;
+	margin-top:13px;
+	height:63vh;
+	overflow:scroll;
+	}
+.student-wrap p{
+	font-size:16px;
+	margin-bottom:13px;
+	}
+.student{
+	margin-left:2.0%;
+	margin-right:8.0%;
+	margin-bottom:6.5px;
+	border-top:1px #CCC solid;
+	padding-top:6.5px;
+	clear:left;
+	}
+.student img{
+	float:left;
+	width:13vw;
+	}
+.stuinfo{
+	float:left;
+	margin-right:3vw;
+	}
+.stu_name{    
+	margin-top: 0.6vh;
+    margin-bottom: 1.3vh;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 4vw;
+	width:16.6vw;
+	}
+.stu_seat{
+	font-size:10px;
+	color:#59abe8;
+	margin-bottom:3px;
+	line-height: 2vw;
+	}
+.leave_status{
+	font-size:10px;
+	color:#650000;
+	line-height: 5vw;	
+	}
+.att_status{
+	float: left;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100px;
+    margin-right: 1.6vw
+    text-align: center;
+    line-height: 10.5vw;
+    font-size: 4vw;
+    margin-top: 1vw;
+	margin-bottom: 2vw;
+	} 
+.normal{
+	color:#2e9699;
+	border:1px #2e9699 solid;
+	padding-top:0px;
+	margin-right: 2.5vw;
+	text-align:center;
+	}
+
+.late{
+	color:#f26a44;
+	border:1px #f26a44 solid;
+	padding-top:0px;
+	margin-right: 2.5vw;
+	text-align:center;
+	}
+.earlyleave{
+	color:#a8226b;
+	border:1px #a8226b solid;
+	padding-top:0px;
+	margin-right: 2.5vw;
+	text-align:center;
+	}
+.skip{
+	color:#ee2856;
+	border:1px #ee2856 solid;
+	padding-top:0px;
+	margin-right: 2vw;
+	text-align:center;
+	}

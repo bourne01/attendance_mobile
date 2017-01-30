@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.attendace_handle-wrap{
+  width:100vw;
+  height:89.8vh;
+  overflow:hidden;
+  padding-top:3vh;
+  padding-left:3.6vw;
+  padding-right:3.6vw;
+	}
+.attinfo{
+	padding-bottom:2.5vh;
+	border-bottom:1px #CCC solid;
+	margin-left:0px;
+	width:92vw;
+	}
+.handle{
+  margin-top:2.5vh;
+  color: #999;
+  /*border-bottom:1px #CCC solid;*/
+  margin-bottom:3.7vh;
+}
+.handle p{
+	margin-bottom:1.7vh;
+	font-size: medium;
+	
+	}
+.admindeal0{
+	padding-left:5vw;
+	height:18px;
+	line-height:18px;
+	padding-bottom:2vh;
+	}
+.input_radio{
+	height:18px;
+	width:18px;
+	vertical-align:text-bottom;
+	margin-bottom:-1px;
+	*margin-bottom:-3px;
+	margin-right:5vw;
+	}
+textarea {
+    width: 92vw;
+    height: 22.5vh;
+    margin-bottom: 2vh;
+    border-radius: 2px;
+}
+.btn{
+	margin-top:3vh;
+	margin-left:7vw;
+	margin-right:7vw;
+	text-align:center;
+	}
+.btn .save{
+  width: 30vw;
+  height: 6.3vh;
+  background: url(../img/save-bg.png) no-repeat center;
+  background-size:contain;
+  font-size: 3.4vh;
+  color:#FFF;
+  border: none;
+  border-radius: 8px;
+  margin-right:5vw;
+	}
+.btn .cancel{
+  width: 30vw;
+  height: 6.3vh;
+  background: url(../img/cancel1-bg.png) no-repeat center;
+  background-size:contain;
+  font-size: 3.4vh;
+  color:#FFF;
+  border: none;
+  border-radius: 8px;
+	}

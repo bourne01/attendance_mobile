@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.leave-wrap{
+  width:100vw;
+  height:79.8vh;
+	}
+.leave_profile{
+	margin-top:23.3%;
+	text-align:center;
+	}
+.leave_profile img{
+	width:40%;
+	}
+.headteacher{
+	margin-top:10vw;
+	text-align:center;
+	font-size:16px;
+	margin-bottom:10vw;
+	}
+.btn{
+	text-align:center;
+	}
+.btn button{
+	width:45%;
+	height:20vw;
+	background:url(../img/leave-bg.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}

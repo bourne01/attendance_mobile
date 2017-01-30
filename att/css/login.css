@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.login-wrap{
+  width:100vw;
+  height:92.8vh;
+  overflow:auto;
+}
+.logo{
+  height: 103px;
+  text-align: center;
+  margin-top: 60px;
+}
+.logo img{
+  height: 100%;
+}
+.photo-box{
+  border-radius: 5px;
+  overflow: hidden;
+  width: 115px;
+  margin-top: 34px;
+  border: 1px solid #ddd;
+}
+.photo-box img{
+  max-width: 100%;
+}
+.input-wrap p{
+  text-align: center;
+  margin-top: 17px;
+}
+#errormsg{
+	text-align:center;
+	color:red;
+	font-size:14px;
+	}
+.input-wrap p input{
+  width: 46%;
+  border-radius: 3px;
+  border: 1px solid #d5d5d5;
+  height: 19px;
+  padding: 5px 2%;
+}
+.remember{
+  color: #999;
+}
+.remember span{
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-right: 5px;
+}
+.remember .on-select{
+  background:#00d49c url(../img/check.png) no-repeat center;
+  background-size: 13px;
+}
+.btn-wrap button{
+  width: 171px;
+  height: 46px;
+  background:url(../img/button1-bk.png)no-repeat center;
+  background-size:contain;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.postlogin-wrap{
+  width:100vw;
+  height:82.8vh;
+}
+.logo{
+  height: 103px;
+  text-align: center;
+  margin-top: 60px;
+}
+.logo img{
+	height:100%;
+	}
+.user-profile{
+	width:107px;
+	text-align:center;
+	margin-top:39px;
+	overflow:hidden;
+	border:1px solid #ddd;
+	border-radius:5px;
+	}
+.user-profile img{
+	width:100%;
+	}
+.greeting{
+	line-height:15px;
+	font-size:15px;
+	margin-top:32px;
+	text-align:center;	
+	}
+.btn{
+	text-align:center;
+	}
+.btn button{
+	height:43px;
+	width:112px;
+	font-size:12px;
+	background:url(../img/button-bk.png) no-repeat center;
+	background-size:contain;
+	text-align:center;
+	border:none;
+	color: #fff;
+	margin-top:34px;
+	}

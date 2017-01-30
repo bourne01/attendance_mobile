@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.rollcall-wrap{
+   width:100vw;
+  height:87.8vh;
+	}
+.calendar-wrap{
+	height:14%;
+	margin:auto 5.3%;
+	margin-top:30px;border-bottom:1px #CCC solid;
+	}
+
+.calendar{
+	width:80px;
+	height:73px;
+	background:url(../img/calendar-bk.png) no-repeat center;
+	background-size:contain;
+	float:left;
+	text-align:center;
+	margin-right:10px;
+	
+	}
+	
+.calendar .month{
+	margin-top:2px;
+	font-size:11px;
+	margin-bottom:-2px;
+	}
+.calendar .date{
+	font-size:32px;
+	color:#1c9ad9;
+	margin-bottom:-5px;
+	}
+.calendar .week{
+	margin-top:-2px;
+	font-size:9px;
+	color:#fff;
+	}
+.daytime{
+	float:left;
+	}
+.daytime p{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:13px;
+	}
+.class-wrap{
+	margin-left:5.3%;
+	margin-top:2.7%;	
+	}
+.class-wrap p{
+	margin-bottom:24px;
+	font-size:15px;
+	}
+.class_order{
+	height:4.5vh;
+	width:53.4vw;
+	line-height:4.5vh;
+	font-size:1.5vh;
+	background:url(../img/select1-bg.png) no-repeat center;
+	/*background-size:contain;*/
+	background-size:53.4vw;
+	margin-left: 16vw;
+	}
+.class_order span{
+	padding-left:5vw;
+	}
+.class_order li{
+	display:none;
+	height: 4.5vh;
+    width: 48.4vw;
+	/*width:155.88px;*/
+    padding-left: 5vw;
+    /*background-color: #F96;*/
+	background:#EACACA;
+    border-bottom: 1px solid #FFF;
+	top:0;
+	position:relative;
+	z-index:999;
+	list-style:none;
+	}
+
+.classinfo p{
+	color:#269bde;
+	display:none;
+	clear:both;
+	}
+.btn{
+	display:none;
+	margin-left:5.3%;
+	}
+.btn p{
+	color:red;
+	}
+.btn button{
+	width:171px;
+	height:46px;
+	margin-top:8px;
+	background:url(../img/button1-bk.png) no-repeat center;
+	background-size:contain;
+	border:none;
+	}
+
